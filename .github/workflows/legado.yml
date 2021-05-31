@@ -6,10 +6,10 @@ on:
   push:
     branches:
       - master
-#  watch:
-#    types: [started]
-#  schedule:
-#    - cron: '0 4 * * *'
+  watch:
+    types: [started]
+  schedule:
+    - cron: '0 4 * * *'
 
 jobs:
   build:
