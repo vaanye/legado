@@ -19,7 +19,7 @@ jobs:
       ylogin: ${{ secrets.LANZOU_ID }}
       phpdisk_info: ${{ secrets.LANZOU_PSD }}
       # 蓝奏云里的文件夹ID（阅读3测试版:2670621）
-      LANZOU_FOLDER_ID: '2670621'
+      LANZOU_FOLDER_ID: ${{ secrets.LANZOU_FileID }}
       # 是否上传到artifact
       UPLOAD_ARTIFACT: 'true'
     steps:
